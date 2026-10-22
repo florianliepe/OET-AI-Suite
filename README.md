@@ -38,7 +38,7 @@ Set through Azure Static Web App application settings, never through frontend va
 
 - `LLM_API_KEY`
 - `LLM_BASE_URL` (default `https://ai-gateway.eraneos.com`; include `/v1` only if required by the gateway)
-- `LLM_MODEL` (default `gpt-4o`)
+- `LLM_MODEL` (default `gpt-5.1`)
 
 The API has bounded input, output and request time, same-origin browser validation, and best-effort per-instance burst limits. These in-memory limits are not a distributed quota; enforce a gateway spending/rate limit for public exposure. Chat questions are forwarded to the gateway; this app does not persist them. Gateway retention follows the gateway’s own configuration. Chat answers are grounded in the same product data as the website and do not use uploaded documents yet. History is not sent between questions.
 

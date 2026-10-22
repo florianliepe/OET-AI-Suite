@@ -2,6 +2,7 @@
   "routes": [{"route":"/","redirect":"/de/","statusCode":302}],
   "responseOverrides":{"404":{"rewrite":"/404.html"}},
   "platform":{"apiRuntime":"node:22"},
+  "mimeTypes":{".mp4":"video/mp4"},
   "globalHeaders": {
     "X-Content-Type-Options":"nosniff",
     "Referrer-Policy":"strict-origin-when-cross-origin",

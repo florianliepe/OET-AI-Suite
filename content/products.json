@@ -8,57 +8,113 @@
     "de": {
       "tag": "Wissen & Erfahrung",
       "headline": "Erfahrung bleibt. Auch wenn Menschen weitergehen.",
-      "description": "Erfahrungswissen gemeinsam erschließen und für die nächste Generation zugänglich machen. Der Intellectual Twin stellt das Urteilsvermögen erfahrener Menschen in den Mittelpunkt.",
-      "situation": "Erfahrene Mitarbeitende prägen Entscheidungen mit Wissen, das selten vollständig dokumentiert ist.",
-      "complication": "Bei Rollenwechsel oder Ruhestand gehen Kontext, Abwägungen und der Umgang mit Ausnahmefällen leicht verloren.",
-      "solution": "Gemeinsam einen Intellectual Twin gestalten, der Erfahrungswissen strukturiert zugänglich macht und Menschen beim Lernen und bei der Vorbereitung von Entscheidungen unterstützt.",
+      "description": "Der Intellectual Twin macht erfahrungsbasiertes Urteilsvermögen zugänglich: wie Fachleute denken, abwägen und eskalieren. Gemeinsam mit den Wissensträgern entsteht ein nachvollziehbarer Wissenskontext, der Menschen unterstützt und ihre Verantwortung erhält.",
+      "situation": "Erfahrene Menschen wissen, warum eine Entscheidung sinnvoll ist, wann eine Ausnahme gilt und wer rechtzeitig einbezogen werden muss. Dieses Wissen trägt den Betrieb – weit über dokumentierte Fakten hinaus.",
+      "complication": "Bei Abwesenheit, Rollenwechsel oder Ruhestand fehlen häufig die Gründe hinter Entscheidungen: Abwägungen, Ausnahmefälle und verantwortliche Eskalation. Dokumente allein bewahren diesen Zusammenhang nicht.",
+      "solution": "Der Intellectual Twin verbindet einen persönlichen Zugang zum Erfahrungswissen mit verknüpften Quellen, Belegen und gemeinsam entwickelten Fähigkeiten. Menschen prüfen relevante Inhalte und Antworten; Handlungsspielräume und Freigaben werden ausdrücklich festgelegt.",
       "approach": [
-        "Wissensträger und relevante Entscheidungssituationen identifizieren.",
-        "Erfahrungen, Rückfragen und Ausnahmefälle gemeinsam erschließen.",
-        "Antworten mit Fachleuten prüfen und den Einsatz schrittweise gestalten."
+        "Wissensbasis aufbauen: relevante Dokumente und priorisierte Entscheidungssituationen zusammenführen.",
+        "Implizites Wissen erschließen: durch geführte Interviews, Rückfragen und die gemeinsame Betrachtung von Ausnahmen.",
+        "Zusammenhänge verknüpfen: Wissen, Belege, Abwägungen und Grenzen in einem nachvollziehbaren Kontext zusammenführen.",
+        "Mit Fachleuten validieren: Antworten und Herleitungen prüfen, Freigabegrenzen festlegen und Wissen im Einsatz weiterentwickeln."
       ],
       "cases": [
         [
-          "Wissensübergabe",
-          "Erfahrungswissen bei Rollenwechseln und Ruhestand zugänglich halten."
+          "Wissenskontinuität",
+          "Erfahrung über Schichten, Abwesenheiten, Rollenwechsel und Ruhestand hinweg zugänglich halten."
         ],
         [
-          "Onboarding",
-          "Neue Mitarbeitende mit Kontext und nachvollziehbaren Beispielen unterstützen."
+          "Lernen & Einarbeitung",
+          "Mit Fragen an den Twin implizites Wissen und die Gründe hinter Entscheidungen erschließen."
         ],
         [
-          "Entscheidungsvorbereitung",
-          "Abwägungen sichtbar machen. Die Entscheidung bleibt beim Menschen."
+          "Entscheidungsqualität",
+          "Belege, Abwägungen und Eskalationswege sichtbar machen und gemeinsam prüfen."
+        ],
+        [
+          "Cargo & Rail",
+          "Korridorspezifische Erfahrung, Ausnahmebehandlung und Kundenversprechen für die Vorbereitung betrieblicher Entscheidungen erschließen."
         ]
-      ]
+      ],
+      "architecture": [
+        [
+          "Actor Twin",
+          "Ein Zugang, der sich am Gespräch mit einem erfahrenen Kollegen orientiert."
+        ],
+        [
+          "Compound Knowledge Fabric",
+          "Verknüpft Wissen mit Quellen, Kontext und Belegen, damit Herleitungen nachvollziehbar werden."
+        ],
+        [
+          "Agentic Butler",
+          "Gemeinsam entwickelte Fähigkeiten unterstützen wiederkehrende Aufgaben innerhalb festgelegter Grenzen."
+        ]
+      ],
+      "principle": "Co-Creation ist die Grundlage: Wissensträger und Anwender prüfen, was relevant ist. Der Twin unterstützt Urteilsvermögen; die Verantwortung bleibt menschlich."
     },
     "en": {
       "tag": "Knowledge & experience",
       "headline": "Experience stays. Even when people move on.",
-      "description": "Capture experiential knowledge together and make it accessible to the next generation. The Intellectual Twin puts experienced professionals’ judgement at the centre.",
-      "situation": "Experienced employees shape decisions through knowledge that is rarely fully documented.",
-      "complication": "Role changes and retirement can leave gaps in context, judgement and the handling of exceptions.",
-      "solution": "Co-create an Intellectual Twin that makes experiential knowledge accessible and supports people in learning and preparing decisions.",
+      "description": "The Intellectual Twin makes expert judgement accessible: how experienced people think, weigh trade-offs and escalate. Co-created with knowledge holders, it connects knowledge and context to support people while preserving their accountability.",
+      "situation": "Experienced people understand why a decision makes sense, when an exception applies and who needs to be involved. This knowledge sustains operations far beyond documented facts.",
+      "complication": "Absence, role changes and retirement can leave gaps in the reasoning behind decisions: trade-offs, exceptions and responsible escalation. Documents alone do not preserve this context.",
+      "solution": "The Intellectual Twin combines a personal interface to expertise with connected sources, evidence and co-created skills. People validate relevant knowledge and answers; boundaries for action and approval are explicitly defined.",
       "approach": [
-        "Identify knowledge holders and relevant decision situations.",
-        "Explore experience, follow-up questions and exceptions together.",
-        "Review answers with experts and introduce use gradually."
+        "Establish the knowledge foundation: bring together relevant documents and priority decision situations.",
+        "Elicit implicit knowledge: use guided interviews, follow-up questions and shared exploration of exceptions.",
+        "Connect the context: link knowledge, evidence, trade-offs and boundaries into traceable relationships.",
+        "Validate with experts: review answers and reasoning, define approval boundaries and develop knowledge through use."
       ],
       "cases": [
         [
-          "Knowledge transfer",
-          "Keep experience accessible through role changes and retirement."
+          "Knowledge continuity",
+          "Keep experience accessible across shifts, absences, role changes and retirement."
         ],
         [
-          "Onboarding",
-          "Support new colleagues with context and understandable examples."
+          "Learning & onboarding",
+          "Use questions to uncover implicit knowledge and the reasoning behind decisions."
         ],
         [
-          "Decision preparation",
-          "Make reasoning visible. People retain responsibility for decisions."
+          "Decision quality",
+          "Make evidence, trade-offs and escalation paths visible for human review."
+        ],
+        [
+          "Cargo & Rail",
+          "Capture corridor-specific experience, exception handling and customer commitments to support operational decision preparation."
         ]
-      ]
-    }
+      ],
+      "architecture": [
+        [
+          "Actor Twin",
+          "An interface modelled on asking an experienced colleague."
+        ],
+        [
+          "Compound Knowledge Fabric",
+          "Connects knowledge with sources, context and evidence to make reasoning traceable."
+        ],
+        [
+          "Agentic Butler",
+          "Co-created skills support recurring tasks within defined boundaries."
+        ]
+      ],
+      "principle": "Co-creation is the foundation: knowledge holders and users validate what matters. The twin supports judgement; accountability remains human."
+    },
+    "links": [
+      {
+        "label": {
+          "de": "Cargo & Rail · Zur Keynote",
+          "en": "Cargo & Rail · Explore the keynote"
+        },
+        "url": "https://florianliepe.github.io/Me.IDs-Keynote/"
+      },
+      {
+        "label": {
+          "de": "Versicherungen · Zum Anwendungsfall",
+          "en": "Insurance · Explore the use case"
+        },
+        "url": "https://intellectual-twin-insurance.eraneos.com/"
+      }
+    ]
   },
   {
     "slug": "orgdesign-simulator",

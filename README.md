@@ -39,6 +39,7 @@ Set through Azure Static Web App application settings, never through frontend va
 - `LLM_API_KEY`
 - `LLM_BASE_URL` (default `https://ai-gateway.eraneos.com`; include `/v1` only if required by the gateway)
 - `LLM_MODEL` (default `gpt-5.1`)
+- `ALLOWED_ORIGINS` (optional comma-separated public origins; defaults to the production and develop URLs; update when adding a custom domain)
 
 The API has bounded input, output and request time, same-origin browser validation, and best-effort per-instance burst limits. These in-memory limits are not a distributed quota; enforce a gateway spending/rate limit for public exposure. Chat questions are forwarded to the gateway; this app does not persist them. Gateway retention follows the gateway’s own configuration. Chat answers are grounded in the same product data as the website and do not use uploaded documents yet. History is not sent between questions.
 
@@ -50,4 +51,4 @@ The mailbox owner may need to activate FormSubmit on first submission. A full de
 
 ## Validation
 
-`npm test` validates translated routes, recipients, missing configuration, origin enforcement, server-side knowledge and rate limiting. Browser QA covers desktop/mobile layout, switching language and chat interaction. No attachments or gateway keys belong in public assets, logs or commits.
+`npm test` validates translated routes, recipients, missing configuration, origin enforcement, server-side knowledge and rate limiting. Browser QA covers desktop layout, switching language and chat interaction. Mobile breakpoints are implemented; a physical-device check remains recommended. No attachments or gateway keys belong in public assets, logs or commits.

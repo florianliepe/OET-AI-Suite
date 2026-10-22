@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 176 176" fill="none">
+  <title>OET AI Suite</title>
+  <defs>
+    <path id="corner" d="M0 79V28C0 12.536 12.536 0 28 0H79L89 10L79 20H38C28.059 20 20 28.059 20 38V79L10 69Z"/>
+  </defs>
+  <g fill="#202020">
+    <use href="#corner"/>
+    <use href="#corner" transform="rotate(90 88 88)"/>
+    <use href="#corner" transform="rotate(180 88 88)"/>
+    <use href="#corner" transform="rotate(270 88 88)"/>
+  </g>
+  <rect x="64" y="64" width="48" height="48" rx="6" fill="#ff5a1f"/>
+</svg>

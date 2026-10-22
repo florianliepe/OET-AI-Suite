@@ -1,0 +1,6 @@
+dist/
+node_modules/
+.env*
+!.env.example
+api/local.settings.json
+*.log

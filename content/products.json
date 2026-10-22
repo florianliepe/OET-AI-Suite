@@ -1,0 +1,260 @@
+[
+  {
+    "slug": "intellectual-twin",
+    "name": "Intellectual Twin",
+    "owner": "Dr. Florian Liepe",
+    "email": "florian.liepe@eraneos.com",
+    "draft": false,
+    "de": {
+      "tag": "Wissen & Erfahrung",
+      "headline": "Erfahrung bleibt. Auch wenn Menschen weitergehen.",
+      "description": "Erfahrungswissen gemeinsam erschließen und für die nächste Generation zugänglich machen. Der Intellectual Twin stellt das Urteilsvermögen erfahrener Menschen in den Mittelpunkt.",
+      "situation": "Erfahrene Mitarbeitende prägen Entscheidungen mit Wissen, das selten vollständig dokumentiert ist.",
+      "complication": "Bei Rollenwechsel oder Ruhestand gehen Kontext, Abwägungen und der Umgang mit Ausnahmefällen leicht verloren.",
+      "solution": "Gemeinsam einen Intellectual Twin gestalten, der Erfahrungswissen strukturiert zugänglich macht und Menschen beim Lernen und bei der Vorbereitung von Entscheidungen unterstützt.",
+      "approach": [
+        "Wissensträger und relevante Entscheidungssituationen identifizieren.",
+        "Erfahrungen, Rückfragen und Ausnahmefälle gemeinsam erschließen.",
+        "Antworten mit Fachleuten prüfen und den Einsatz schrittweise gestalten."
+      ],
+      "cases": [
+        [
+          "Wissensübergabe",
+          "Erfahrungswissen bei Rollenwechseln und Ruhestand zugänglich halten."
+        ],
+        [
+          "Onboarding",
+          "Neue Mitarbeitende mit Kontext und nachvollziehbaren Beispielen unterstützen."
+        ],
+        [
+          "Entscheidungsvorbereitung",
+          "Abwägungen sichtbar machen. Die Entscheidung bleibt beim Menschen."
+        ]
+      ]
+    },
+    "en": {
+      "tag": "Knowledge & experience",
+      "headline": "Experience stays. Even when people move on.",
+      "description": "Capture experiential knowledge together and make it accessible to the next generation. The Intellectual Twin puts experienced professionals’ judgement at the centre.",
+      "situation": "Experienced employees shape decisions through knowledge that is rarely fully documented.",
+      "complication": "Role changes and retirement can leave gaps in context, judgement and the handling of exceptions.",
+      "solution": "Co-create an Intellectual Twin that makes experiential knowledge accessible and supports people in learning and preparing decisions.",
+      "approach": [
+        "Identify knowledge holders and relevant decision situations.",
+        "Explore experience, follow-up questions and exceptions together.",
+        "Review answers with experts and introduce use gradually."
+      ],
+      "cases": [
+        [
+          "Knowledge transfer",
+          "Keep experience accessible through role changes and retirement."
+        ],
+        [
+          "Onboarding",
+          "Support new colleagues with context and understandable examples."
+        ],
+        [
+          "Decision preparation",
+          "Make reasoning visible. People retain responsibility for decisions."
+        ]
+      ]
+    }
+  },
+  {
+    "slug": "orgdesign-simulator",
+    "name": "OrgDesign Simulator",
+    "owner": "Lydia Giggenbach",
+    "email": "lydia.giggenbach@eraneos.com",
+    "construction": true,
+    "draft": false,
+    "de": {
+      "tag": "Organisation & Szenarien",
+      "headline": "Organisation verstehen. Zielbilder fundiert vergleichen.",
+      "description": "ORGVis verbindet Organisationsdiagnose und die Bewertung möglicher Zielbilder in einem strukturierten Workshop. Rollen, Fähigkeiten, Hierarchie und Wertströme werden zu einer nachvollziehbaren Entscheidungsgrundlage. Das Angebot befindet sich im Aufbau.",
+      "situation": "Organisationen müssen Geschwindigkeit, Kosteneffizienz, Skalierbarkeit und Qualität in Einklang bringen. Die dafür relevanten Informationen liegen häufig in unterschiedlichen Unterlagen und Köpfen.",
+      "complication": "Ein Organigramm allein erklärt weder Engpässe noch Übergaben und Verantwortungs­lücken. Ohne gemeinsame Kriterien lassen sich alternative Organisationsmodelle nur schwer vergleichen.",
+      "solution": "ORGVis führt Datenaufnahme, belegte Befunde und alternative Operating Models zusammen. Gewichtete Kriterien und Szenarien unterstützen die Diskussion; KI-gestützte Analysen bleiben Entwürfe, bis das Team sie geprüft hat.",
+      "approach": [
+        "Tag 1: Ziele und Kriterien klären, Ist-Daten zu Rollen, Hierarchie, Fähigkeiten und Wertströmen gemeinsam erfassen.",
+        "Analysephase: Befunde mit Belegen, zwei bis drei Zielbilder und Szenarien vorbereiten. Datenherkunft, Schätzungen und offene Fragen sichtbar halten.",
+        "Tag 2: Fachlich geprüfte Zielbilder vergleichen, Annahmen hinterfragen und nächste Schritte gemeinsam festlegen."
+      ],
+      "cases": [
+        [
+          "Organisationsdiagnose",
+          "Engpässe, Schnittstellen und Rollenlücken mit nachvollziehbaren Belegen diskutieren."
+        ],
+        [
+          "Operating-Model-Vergleich",
+          "Passende Organisationsmodelle anhand gemeinsam gewichteter Kriterien abwägen."
+        ],
+        [
+          "Szenarien & Entscheidungen",
+          "Auswirkungen auf Teams, Rollen und Wertströme betrachten und die Robustheit einer Empfehlung prüfen."
+        ]
+      ]
+    },
+    "en": {
+      "tag": "Organisation & scenarios",
+      "headline": "Understand your organisation. Compare future designs with evidence.",
+      "description": "ORGVis combines organisational diagnosis with the assessment of alternative designs in a structured workshop. Roles, capabilities, hierarchy and value streams inform a traceable basis for decisions. The offering is under construction.",
+      "situation": "Organisations need to balance speed, cost efficiency, scalability and quality. Relevant information is often spread across documents and people.",
+      "complication": "An organisational chart alone cannot explain bottlenecks, handovers or responsibility gaps. Without shared criteria, alternative operating models are difficult to compare.",
+      "solution": "ORGVis brings together data intake, evidence-backed findings and alternative operating models. Weighted criteria and scenarios support discussion; AI-assisted analyses remain drafts until reviewed by the team.",
+      "approach": [
+        "Day 1: Align objectives and criteria, then capture current roles, hierarchy, capabilities and value streams together.",
+        "Analysis: Prepare findings with evidence, two or three target designs and scenarios. Keep provenance, estimates and open questions visible.",
+        "Day 2: Compare expert-reviewed designs, challenge assumptions and agree next steps together."
+      ],
+      "cases": [
+        [
+          "Organisational diagnosis",
+          "Discuss bottlenecks, interfaces and role gaps using traceable evidence."
+        ],
+        [
+          "Operating model comparison",
+          "Evaluate suitable organisational models against jointly weighted criteria."
+        ],
+        [
+          "Scenarios & decisions",
+          "Consider impacts on teams, roles and value streams, and test the robustness of a recommendation."
+        ]
+      ]
+    }
+  },
+  {
+    "slug": "storage-agent",
+    "name": "Storage Agent",
+    "owner": "Adem Korkutan",
+    "email": "adem.korkutan@eraneos.com",
+    "draft": true,
+    "de": {
+      "tag": "Produkt im Fokus",
+      "headline": "Storage Agent. Ihr Anwendungsfall ist der Ausgangspunkt.",
+      "description": "Die Produktbeschreibung wird derzeit vorbereitet. Adem Korkutan beantwortet Ihre Fragen zu Einsatzmöglichkeiten und Produktumfang.",
+      "situation": "Sie möchten klären, ob Storage Agent zu Ihrer Aufgabenstellung passt.",
+      "complication": "Ein belastbarer Einsatzentscheid erfordert einen abgestimmten Produktumfang und konkrete Anforderungen.",
+      "solution": "Klären Sie Ihren Anwendungsfall direkt mit dem Produktverantwortlichen. Bestätigte Funktionen ergänzen wir hier nach fachlicher Abstimmung.",
+      "approach": [
+        "Aufgabenstellung und Rahmenbedingungen beschreiben.",
+        "Produktumfang mit dem Verantwortlichen abgleichen.",
+        "Nächste Schritte und mögliche Erprobung vereinbaren."
+      ],
+      "cases": [
+        [
+          "Ihr Anwendungsfall",
+          "Konkrete Einsatzmöglichkeiten werden mit dem Produktverantwortlichen abgestimmt."
+        ]
+      ]
+    },
+    "en": {
+      "tag": "Product spotlight",
+      "headline": "Storage Agent. Start with your use case.",
+      "description": "The product description is being prepared. Adem Korkutan can discuss potential applications and product scope.",
+      "situation": "You want to understand whether Storage Agent fits your challenge.",
+      "complication": "A sound decision requires clear product scope and specific requirements.",
+      "solution": "Discuss your use case directly with the product owner. Confirmed capabilities will be added following expert review.",
+      "approach": [
+        "Describe your challenge and constraints.",
+        "Review product scope with the owner.",
+        "Agree next steps and a possible evaluation."
+      ],
+      "cases": [
+        [
+          "Your use case",
+          "Specific applications will be agreed with the product owner."
+        ]
+      ]
+    }
+  },
+  {
+    "slug": "ai-vision-studio",
+    "name": "AI Vision Studio",
+    "owner": "Dr. Florian Liepe",
+    "email": "florian.liepe@eraneos.com",
+    "draft": true,
+    "de": {
+      "tag": "Produkt im Fokus",
+      "headline": "AI Vision Studio. Gemeinsam den passenden Einsatz klären.",
+      "description": "Die Produktbeschreibung folgt nach fachlicher Abstimmung. Dr. Florian Liepe ist Ihr Ansprechpartner für AI Vision Studio.",
+      "situation": "Sie möchten AI Vision Studio und mögliche Einsatzfelder kennenlernen.",
+      "complication": "Ohne abgestimmte Anforderungen lässt sich der Nutzen für Ihre Organisation noch nicht bewerten.",
+      "solution": "Besprechen Sie Ihre Ziele mit dem Produktverantwortlichen. Konkrete Funktionen und Anwendungsfälle ergänzen wir nach ihrer Bestätigung.",
+      "approach": [
+        "Ziele und Ausgangslage besprechen.",
+        "Eignung und Produktumfang gemeinsam klären.",
+        "Ein mögliches weiteres Vorgehen abstimmen."
+      ],
+      "cases": [
+        [
+          "Ihr Anwendungsfall",
+          "Nutzen und mögliche Anwendungen werden im Gespräch konkretisiert."
+        ]
+      ]
+    },
+    "en": {
+      "tag": "Product spotlight",
+      "headline": "AI Vision Studio. Explore the right application together.",
+      "description": "Product details will follow expert review. Dr. Florian Liepe is your contact for AI Vision Studio.",
+      "situation": "You want to learn about AI Vision Studio and its possible applications.",
+      "complication": "Assessing its value for your organisation requires agreed requirements.",
+      "solution": "Discuss your objectives with the product owner. Specific features and use cases will be added once confirmed.",
+      "approach": [
+        "Discuss objectives and your starting point.",
+        "Clarify suitability and product scope together.",
+        "Agree a possible next step."
+      ],
+      "cases": [
+        [
+          "Your use case",
+          "Explore potential value and applications in a conversation."
+        ]
+      ]
+    }
+  },
+  {
+    "slug": "notetaker",
+    "name": "NoteTaker",
+    "owner": "Jonas Sinn",
+    "email": "jonas.sinn@eraneos.com",
+    "draft": true,
+    "de": {
+      "tag": "Produkt im Fokus",
+      "headline": "NoteTaker. Lernen Sie das Angebot kennen.",
+      "description": "Die Produktbeschreibung wird vorbereitet. Jonas Sinn unterstützt Sie bei Fragen zu NoteTaker und möglichen Einsatzfeldern.",
+      "situation": "Sie möchten wissen, welchen Beitrag NoteTaker in Ihrem Arbeitsumfeld leisten könnte.",
+      "complication": "Funktionen, Rahmenbedingungen und Erwartungen müssen vor einem Einsatz abgeglichen werden.",
+      "solution": "Klären Sie Ihre Anforderungen mit dem Produktverantwortlichen. Die bestätigte Beschreibung und konkrete Anwendungsfälle folgen.",
+      "approach": [
+        "Arbeitskontext und Erwartungen erfassen.",
+        "Produktumfang und Voraussetzungen besprechen.",
+        "Mögliche nächste Schritte festlegen."
+      ],
+      "cases": [
+        [
+          "Ihr Anwendungsfall",
+          "Die fachlich bestätigten Anwendungsfälle werden hier ergänzt."
+        ]
+      ]
+    },
+    "en": {
+      "tag": "Product spotlight",
+      "headline": "NoteTaker. Get to know the offering.",
+      "description": "Product details are being prepared. Jonas Sinn can answer questions about NoteTaker and potential applications.",
+      "situation": "You want to understand how NoteTaker could contribute to your working environment.",
+      "complication": "Features, constraints and expectations need to be aligned before use.",
+      "solution": "Clarify your requirements with the product owner. Confirmed descriptions and specific use cases will follow.",
+      "approach": [
+        "Understand your work context and expectations.",
+        "Discuss product scope and prerequisites.",
+        "Agree possible next steps."
+      ],
+      "cases": [
+        [
+          "Your use case",
+          "Expert-reviewed use cases will be added here."
+        ]
+      ]
+    }
+  }
+]

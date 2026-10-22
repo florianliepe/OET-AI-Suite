@@ -1,0 +1,11 @@
+{
+  "routes": [{"route":"/","redirect":"/de/","statusCode":302}],
+  "responseOverrides":{"404":{"rewrite":"/404.html"}},
+  "platform":{"apiRuntime":"node:22"},
+  "globalHeaders": {
+    "X-Content-Type-Options":"nosniff",
+    "Referrer-Policy":"strict-origin-when-cross-origin",
+    "Permissions-Policy":"camera=(), microphone=(), geolocation=()",
+    "Content-Security-Policy":"default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; form-action https://formsubmit.co; frame-ancestors 'none'; base-uri 'self'; object-src 'none'"
+  }
+}

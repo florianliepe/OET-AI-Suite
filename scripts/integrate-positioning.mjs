@@ -1,0 +1,12 @@
+import {readFileSync,writeFileSync} from 'node:fs';
+let code=readFileSync('scripts/build.mjs','utf8');
+code=code.replace('<p class="lead">${t.homeText}</p>','<p class="hero-promise">${positioning.promise}</p><p class="lead">${v.intro}</p>');
+const section='<section class="section ai-first" id="ai-first"><p class="eyebrow">${v.eyebrow}</p><div class="section-heading"><h2>${v.headline.replaceAll("\\n","<br>")}</h2><p>${v.intro}</p></div><div class="belief-grid"><div class="belief-pillars">${v.pillars.map(p=>`<article><p class="eyebrow">${p.label}</p><h3>${p.title}</h3><p>${p.text}</p></article>`).join(\'\')}</div><aside class="belief-promise"><p class="eyebrow">${lang===\'de\'?\'UNSER VERSPRECHEN\':\'OUR PROMISE\'}</p><h3>${positioning.promise}</h3><p class="promise-main">${v.promiseText}</p><p>${v.promiseDetail}</p></aside></div><ul class="value-outcomes">${v.outcomes.map(x=>`<li>${x}</li>`).join(\'\')}</ul></section>';
+code=code.replace('${art()}</section><section class="section portfolio"', '${art()}</section>'+section+'<section class="section portfolio"');
+code=code.replace("shell(lang,'OET AI Suite',t.homeText,home)","shell(lang,'OET AI Suite',v.intro,home)");
+code=code.replace("console.log('Built", "writeFileSync('api/knowledge/positioning.json',JSON.stringify(positioning));\nconsole.log('Built");
+writeFileSync('scripts/build.mjs',code);
+code=readFileSync('api/chat/index.js','utf8');
+code=code.replace("const products=require('../knowledge/products.json');", "const products=require('../knowledge/products.json');\nconst positioning=require('../knowledge/positioning.json');");
+code=code.replace('Facts: ${JSON.stringify(knowledge)}', 'Suite positioning: ${JSON.stringify(positioning[de?\'de\':\'en\'])}. Promise: Human first, AI enabled. These are portfolio principles, not proof of specific unconfirmed product features. Facts: ${JSON.stringify(knowledge)}');
+writeFileSync('api/chat/index.js',code);

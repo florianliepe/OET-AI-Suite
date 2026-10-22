@@ -1,0 +1,27 @@
+{
+  "promise": "Human first, AI enabled",
+  "de": {
+    "eyebrow": "UNSER AI-FIRST-VERSTÄNDNIS",
+    "headline": "Menschen im Mittelpunkt.\nMit KI mehr bewegen.",
+    "intro": "Die OET AI Suite stärkt Menschen und Organisationen dort, wo KI echten Mehrwert schafft: beim Strukturieren, Recherchieren und Entlasten von wiederkehrenden Aufgaben. Kontext, Urteilsvermögen und Verantwortung für Ergebnisse bleiben beim Menschen.",
+    "pillars": [
+      {"label":"Selbst anwenden","title":"Apply and own","text":"Wir fragen bei jeder Aufgabe zuerst, wo KI echten Nutzen stiftet, und teilen die Arbeit entsprechend auf. Unsere eigene Praxis bildet die Grundlage für eine fundierte Begleitung."},
+      {"label":"Kunden befähigen","title":"Guide and empower","text":"Wir holen Sie dort ab, wo Sie stehen. Wir zeigen aus eigener Anwendung, was funktioniert, und befähigen Ihre Teams, KI sicher und selbstbewusst im Arbeitsalltag einzusetzen."}
+    ],
+    "promiseText": "Technologie unterstützt. Menschen gestalten und verantworten.",
+    "promiseDetail": "Wir setzen KI ein, um menschliche Fähigkeiten zu stärken. Die Verantwortung für Kontext, Entscheidungen und Ergebnisse bleibt bei den Menschen.",
+    "outcomes": ["Mehr Raum für wertschöpfende Arbeit", "Stärkere Fähigkeiten in Ihren Teams", "Klare menschliche Verantwortung"]
+  },
+  "en": {
+    "eyebrow": "OUR AI-FIRST UNDERSTANDING",
+    "headline": "People at the centre.\nMore possibilities with AI.",
+    "intro": "The OET AI Suite strengthens people and organisations wherever AI adds real value: structuring work, supporting research and reducing repetitive tasks. People retain ownership of context, judgement and outcomes.",
+    "pillars": [
+      {"label":"Our own practice","title":"Apply and own","text":"We start every task by asking where AI adds real value and divide the work accordingly. Our own hands-on practice is the foundation for informed guidance."},
+      {"label":"Your progress","title":"Guide and empower","text":"We meet you where you are. We demonstrate what works through our own practice and enable your teams to apply AI confidently in their everyday work."}
+    ],
+    "promiseText": "Technology supports. People shape and own the outcomes.",
+    "promiseDetail": "We use AI to strengthen human capabilities. Responsibility for context, decisions and outcomes remains human.",
+    "outcomes": ["More room for value-creating work", "Stronger capabilities in your teams", "Clear human accountability"]
+  }
+}
